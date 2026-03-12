@@ -3,22 +3,21 @@
 ## Table of Contents
 * Case Study
 * Dataset Description
+* ER Diagram
 * Data Cleaning
 * Data Analysis
 * Dashboard
 
+## Case Study
 ---
-
-# Case Study
 
 This project analyzes hotel booking data to understand booking trends, customer behavior, revenue performance, and cancellation patterns.
 The goal of the dashboard is to help hotels understand their business performance and identify areas where improvements can be made.
 
+## Dataset Description
 ---
 
-# Dataset Description
-
-The dataset contains hotel booking information with details about customers, booking patterns, and hotel performance.
+Our data set consists of the following observations which include:
 
 Some important fields include:
 
