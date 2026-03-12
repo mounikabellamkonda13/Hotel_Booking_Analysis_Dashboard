@@ -23,24 +23,49 @@ Some important fields include:
 
 **Booking Information**
 
-* Hotel – Type of hotel (City Hotel or Resort Hotel)
-* Arrival Date – Date when the guest arrives
-* Lead Time – Number of days between booking and arrival
-* Stays in Weekend Nights – Weekend stay duration
-* Stays in Week Nights – Weekday stay duration
+* hotel – Type of hotel where the booking was made.
+* lead_time – Number of days between booking date and arrival date.
+* arrival_date_year – Year of arrival.
+* arrival_date_month – Month of arrival.
+* arrival_date_week_number – Week number of arrival.
+* arrival_date_day_of_month – Day of arrival.
 
-**Customer Information**
+**Guest Details**
 
-* Adults – Number of adults in the booking
-* Children – Number of children
-* Country – Guest country
+* adults – Number of adults in the booking.
+* children – Number of children in the booking.
+* babies – Number of babies in the booking.
+* total_guests – Total guests included in the reservation.
+* customer_type – Type of customer (Transient, Contract, Group).
+* is_repeated_guest – Indicates whether the customer is a returning guest.
 
-**Business Information**
+**Booking Details**
 
-* Market Segment – Source of booking
-* Distribution Channel – Booking channel
-* ADR – Average Daily Rate
-* Reservation Status – Booking status (Canceled / Not Canceled)
+* market_segment – Market segment through which the booking was made.
+* distribution_channel – Booking channel (Direct, TA/TO, Corporate).
+* reserved_room_type – Room type originally reserved.
+* assigned_room_type – Room type assigned during check-in.
+* deposit_type – Type of deposit made for the booking.
+
+**Stay Information**
+
+* stays_in_week_nights – Nights stayed during weekdays.
+* stays_in_weekend_nights – Nights stayed during weekends.
+* total_stay_nights – Total number of nights stayed.
+
+**Booking Status**
+
+* booking_cancelled – Indicates whether the booking was cancelled.
+* reservation_status – Final booking status (Canceled, Check-Out, No-Show).
+* reservation_status_date – Date when the status was updated.
+* previous_cancellations – Number of previous cancelled bookings.
+* previous_successful_bookings – Number of successful previous bookings.
+
+**Additional Features**
+
+* required_car_parking_spaces – Number of parking spaces requested.
+* total_of_special_requests – Number of special requests made by guests.
+* days_in_waiting_list – Number of days the booking stayed in the waiting list.
 
 ---
 
