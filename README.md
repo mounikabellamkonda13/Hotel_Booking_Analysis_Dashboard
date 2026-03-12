@@ -1,17 +1,6 @@
-
-
-# Hotel Booking Analysis Dashboard
-----
-
-
-
-
-
-
-# Table of Contents
-
-
-
+# Hotel Booking Analysis Dashboard :
+---
+## Table of Contents
 * Case Study
 * Dataset Description
 * Data Cleaning
