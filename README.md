@@ -10,6 +10,8 @@
 
 # Table of Contents
 
+
+
 * Case Study
 * Dataset Description
 * Data Cleaning
