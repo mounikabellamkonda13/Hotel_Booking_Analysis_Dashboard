@@ -3,7 +3,7 @@
 
 ## Business Problem :
 ---
-Hotels receives a large number of bookings from different channel ,  but they always face challenges such as high cancellation rates, changing booking patterns and it is difficult to understanding customer behavior . So i need to analyze booking data to understand trends and identify key performance metrics and make better decisoions to improve revenue and reduce cancellations.
+Hotels receives a large number of bookings from different channel ,  but they always face challenges such as high cancellation rates, changing booking patterns and it is difficult to understanding customer behavior . So i need to analyze hotel booking data to understand trends and identify key performance metrics and make better decisoions to improve revenue and reduce cancellations.
 
 ## Project Objective
 ---
