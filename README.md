@@ -1,18 +1,13 @@
 # Hotel Booking Analysis Dashboard :
 ---
-## Table of Contents
-* Case Study
-* Dataset Description
-* ER Diagram
-* Data Cleaning
-* Data Analysis
-* Dashboard
 
-## Case Study
+## Business Problem :
 ---
+Hotels receives a large number of bookings from different channel ,  but they always face challenges such as high cancellation rates, changing booking patterns and it is difficult to understanding customer behavior . So i need to analyze booking data to understand trends and identify key performance metrics and make better decisoions to improve revenue and reduce cancellations.
 
-This project analyzes hotel booking data to understand booking trends, customer behavior, revenue performance, and cancellation patterns.
-The goal of the dashboard is to help hotels understand their business performance and identify areas where improvements can be made.
+## Project Objective
+---
+This project is to analyze hotel booking data and create a dashboard that helps to understand booking trends , customer behavior, revenue performance and cancellation patterns.This dashboard aims to provide insights that supports better decision making for hotel management.
 
 ## Dataset Description
 ---
@@ -67,21 +62,18 @@ Some important fields include:
 * total_of_special_requests – Number of special requests made by guests.
 * days_in_waiting_list – Number of days the booking stayed in the waiting list.
 
----
 
-# Data Cleaning
+# Data Cleaning :
+---
 
 Before building the dashboard, the dataset was prepared in Power BI.
 
-Steps performed:
-
-* Removed unnecessary columns and handled missing values
+* Removed unnecessary 4 columns and handled missing values.
 * Created calculated columns for better analysis
-* Created **Total Guests column (Adults + Children)**
-* Created **Total Stay Nights column (Week Nights + Weekend Nights)**
+* Created **Total Guests column ** and  **Total Stay Nights column**
 * Created bins for **guest groups and stay duration**
 * Created DAX measures for key KPIs such as bookings, revenue, and ADR
-
+   Some important measures were created in Power BI to calculate  key performance indicator for the dashboard.
 ---
 
 # Data Analysis
